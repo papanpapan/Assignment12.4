@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/phnumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/name1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="PhoneNumber" />
+
+    <EditText
+        android:id="@+id/dob1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/phnumber1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Date Of Birth" />
+
+    <Button
+        android:id="@+id/btnsave1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/dob1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/btncancel1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnsave1"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Cancel"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff" />
+</RelativeLayout>
